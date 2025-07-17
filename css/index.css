@@ -1,0 +1,59 @@
+/* cores background
+
+.color1 { #1c0b2b };
+.color2 { #301c41 };
+.color3 { #413b6b };
+.color4 { #5c65c0 };
+.color5 { #6f95ff }; 
+*/
+
+nav{
+    text-align: right;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6f95ff;
+    border-bottom: 5px solid #301c41;
+    padding: 20px 10px;
+    
+}
+                                                        
+a {
+    display: inline-flex;                                         
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Fira Code';
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a:before{
+    content: "";
+    background-color: rgb(35, 35, 100);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+
+}
+
+#button-dwl{
+    display: inline-block;
+    background-color: #413b6b;
+    box-shadow: 5px 5px 0 #301c41;
+    padding:18px 20px;
+    margin-right: 0;
+    transition: background-color 0.3s ease;
+
+}
+
+#button-dwl:hover{
+    background-color: rgb(77, 77, 190);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
