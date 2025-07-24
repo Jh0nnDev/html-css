@@ -3,20 +3,18 @@
     background-color: #413b6b;
     box-shadow: 5px 5px 0 #301c41;
     padding:18px 20px;
-    margin-right: 0;
     transition: background-color 0.3s ease;                                      
-    align-items: center;
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: 'Fira Code';
     font-weight: 500;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 10px;
 
 }
 
 .button-dwl:hover{
     background-color: rgb(77, 77, 190);
     color: black;
-    
+
 }
