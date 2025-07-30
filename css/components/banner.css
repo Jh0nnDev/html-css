@@ -1,10 +1,10 @@
 .banner{
-    background-image: url(../../assets/img/fundo\ hollownight.jpg);
+    background-image: url(../../assets/img/compiuter.png);
     box-sizing: border-box;
     height: 760px;
     background-repeat: no-repeat;
     background-size: 100%;
-    border-bottom: 10px solid #000;
+    border-bottom: 10px solid #301c41;
     padding-top: 115px;
     padding-left: 45px;
 }
